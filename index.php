@@ -46,6 +46,7 @@
                 	<label for="test-link">Share the test link:</label>
                     <input type="text" id="test-link" value="http://jqversion.com/" />
                 </div>
+                <a href="https://github.com/M1Sh0u/jQVersion.com" title="jQVersion.com is now open-source. You can improve it on GitHub."><span class="ui-icon ui-icon-gear"></span>Contribute on GitHub</a>
             </div>
             <div id="main-loader">
             	<img src="/resources/images/ajax-loader-white.gif" />
