@@ -32,16 +32,6 @@
 </head>
 
 <body>
-	<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-38225014-5', 'jqversion.com');
-      ga('send', 'pageview', '/' + $.address.value());
-    
-    </script>
 	<div id="page-wrapper">
     	<div id="header">
         	<div id="logo">
@@ -106,26 +96,6 @@
                     <label class="centered-input"><input type="checkbox" id="autorun" checked="checked" /> Enable auto run when loading</label>
                 </div>
                 <div class="left-sidebar-ads">
-                	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- JQVersion.com - BottomLeft -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:200px;height:200px"
-     data-ad-client="ca-pub-9902412679560260"
-     data-ad-slot="7478331835"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                </div>
-                <div class="left-sidebar-ads">
-                	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- JQVersion.com - BottomLeft -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:200px;height:200px"
-     data-ad-client="ca-pub-9902412679560260"
-     data-ad-slot="7478331835"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
                 </div>
             </div>
             <div id="code-container">
@@ -167,7 +137,7 @@
         </div>
         <div class="clear"></div>
         <div id="footer">
-        	<p>Copyright &copy;2014 - JQ.VER.SION | <a href="#" id="feedback">Help or Feedback</a> | <a href="https://jqversion.uservoice.com/knowledgebase" target="_blank">Knowledge Base</a></p>
+        	<p>Copyright &copy;2014-<?php echo date('Y'); ?> - JQ.VER.SION | <a href="#" id="feedback">Help or Feedback</a> | <a href="https://jqversion.uservoice.com/knowledgebase" target="_blank">Knowledge Base</a></p>
             <script type="text/javascript">
 				// Include the UserVoice JavaScript SDK (only needed once on a page)
 				UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/yu6MKFylUQoEOsd12yzQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
